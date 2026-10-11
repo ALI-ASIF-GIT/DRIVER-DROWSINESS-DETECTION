@@ -1,0 +1,8 @@
+# Place the dataset (YOLOv8 format) under datasets/driver-drowsiness/
+path: datasets/driver-drowsiness
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 11
+names: ['awake', 'calling', 'chatting', 'closed_eye', 'drink', 'drowsy', 'eating', 'no_yawn', 'open_eye', 'smoking', 'yawn']

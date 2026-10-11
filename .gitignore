@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Training runs / script outputs
+runs/
+outputs/
+
+# Model weights (distributed via GitHub Releases)
+*.pt
+
+# Dataset (not redistributed)
+datasets/
+
+# Large media (demo gif is whitelisted)
+*.mp4
+*.avi
+!assets/*.gif
